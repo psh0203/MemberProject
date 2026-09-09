@@ -15,10 +15,14 @@ public class Main {
 
         Member member2 =
                 new Member(2, "김철수", "kim@test.com");
+        Member member3 =
+                new Member(2, "이제훈", "hun@test.com");
+
 
 
         service.join(member1);
         service.join(member2);
+        service.join(member3);
 
 
         System.out.println("전체 회원");
